@@ -1,0 +1,24 @@
+In this blog, we will see the Difference between HTTP1.1 vs HTTP2
+
+What is HTTP?
+    
+    Hypertext Transfer Protocol (HTTP) is an application protocol that is, currently, the foundation of data communication for the World Wide Web.
+    First documented version of HTTP vas HTTP V0.9. Currently, the most known and used version in HTTP/1.1 which was officially published as RFC 2068 in 1997. (later revised as RFC 2616).
+    HTTP is based on the Client/Server model. 
+    Client/Server model can be explained as two computers, each with their own IP address.
+    The client (receiver of service) and Server (provider of service) that are communicating via requests and responses.
+
+HTTP1.1 vs HTTP2     
+    
+    HTTP/1.1 works on the textual format, while HTTP/2 works on the binary protocol
+    HTTP/1.1 uses requests resource inlining for getting multiple pages, while HTTP/2 uses PUSH frame by the server that collects all multiple pages.
+    HTTP/1.1 has head-of-line blocking that blocks all the requests behind it until it doesn’t get its all resources, while HTTP/2 allows multiplexing so one TCP connection is required for multiple requests.
+    HTTP/2 uses HPACK for data compression, while HTTP/1.1 compresses data by itself.
+
+Use HTTP/2 and speed up your site 
+   
+   HTTP/2 provides us with many new mechanics that will mitigate HTTP/1.1 issues and ones that will boost your web page performance. Currently, it is widely supported by web clients so its implementation is painless. Although implementation of HTTP/2 protocol is easy you should have in mind that with it you will probably have to change the mechanics (like serving assets to the client) to use the full potential of this protocol.
+
+   HTTP2 is much faster and more reliable than HTTP1.
+
+
