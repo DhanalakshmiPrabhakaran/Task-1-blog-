@@ -1,6 +1,9 @@
 //Get all the countries from Asia continent /region using Filter function
 
+//require library
 const XMLHttpRequest = require('xhr2');
+
+//create an object to the XMLHttpRequest class
 
 let xhr = new XMLHttpRequest();
 xhr.open(`GET`,`https://restcountries.com/v3.1/all`);
